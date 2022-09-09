@@ -209,7 +209,7 @@ html {
 @media screen and (max-width: 768px) {
 
     html {
-            font-size: 40%;
+            font-size: 60%;
         }
         
     .mobile-navbar-btn {
@@ -301,12 +301,8 @@ html {
     }
 }
 
-/* ===========================================
- Hero and Main section  
-======================================= */
-
 .container {
-    padding-top: 190px;
+    padding-top: 170px;
 }
 
 .container .hero-text {
