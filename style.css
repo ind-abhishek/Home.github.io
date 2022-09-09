@@ -205,11 +205,13 @@ html {
 
 /* ---Tablat */
 
-html{
-    font-size: 40%;
-}
 
 @media screen and (max-width: 768px) {
+
+    html {
+            font-size: 40%;
+        }
+        
     .mobile-navbar-btn {
         display: block;
         z-index: 4;
