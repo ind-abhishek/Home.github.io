@@ -416,6 +416,10 @@ padding-top: 130px;
     background-color: rgba(255, 255, 255, 0.1);
     margin-bottom: 35px;
 }
+}
 
-
+@media screen and (max-width: 420px){
+.container{
+padding-top: 100px;
+}
 }
