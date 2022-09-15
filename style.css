@@ -14,7 +14,7 @@ body {
 }
 
 html {
-    font-size: 62.5%;
+    /* font-size: 62.5%; */
     /* 1rem = 10px */
     overflow-x: hidden;
     scroll-behavior: smooth;
@@ -32,7 +32,7 @@ html {
     width: 100%;
     height: 100%;
     min-height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img-13.webp);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img-13.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -48,16 +48,7 @@ body {
     overflow-x: hidden;
 }
 
-/* 
 html {
-  background-color: #0B0B0E;
-  background-color: #358781;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/img-13.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-                /* overflow: hidden; */
-*/ html {
     /* font-size: 62.5%; */
     /* 1rem = 10px */
     overflow-x: hidden;
@@ -65,16 +56,9 @@ html {
 }
 
 
-.main-width {
-    width: 1280px;
-    max-width: 95%;
-    margin: 0 auto;
-    padding: 0 14px;
-}
-
 
 .header {
-    padding: 33px 0 30px;
+    padding: 0px 0 30px;
     height: 10rem;
     display: flex;
     justify-content: space-between;
@@ -113,7 +97,7 @@ html {
 
 .nav-btn {
     color: #eee;
-    background: transparent;
+    background: #04DB9F;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
@@ -125,16 +109,15 @@ html {
 }
 
 .nav-btn:hover {
-    background-color: #FF9551;
-    border: 3px solid #FF9551;
+    background-color: transparent;
+    border: 3px solid #6FEDD6;
     color: #eee;
     transition: .4s;
 }
 
-
 .navbar-list {
     display: flex;
-    margin-top: -2px;
+    /* margin-top: -45px; */
     gap: 51px;
     list-style: none;
     font-family: 'Poppins', sans-serif;
@@ -183,8 +166,8 @@ html {
 }
 
 .mobile-nav-icon {
-    width: 4rem;
-    height: 4rem;
+    width: 64px;
+    height: 64px;
     color: #6FEDD6;
 }
 
@@ -193,41 +176,31 @@ html {
 }
 
 
-.btn-col:hover {
-    color: #eee;
-}
-
-.nav-and-main-btn:hover {
-    color: #eee;
-}
-
 /* ------NAV RESPONSIV------ */
 
 /* ---Tablat */
 
-
 @media screen and (max-width: 768px) {
-
-    html {
-            font-size: 40%;
-        }
-
     .mobile-navbar-btn {
         display: block;
-        z-index: 4;
-        border: 2px solid #64CBBA;
+        z-index: 4mnbfdq;
+        /* border: 3px solid #212529; */
         color: #212529;
         position: absolute;
         margin-left: 615px;
+    }
+        .icon-inner{
+        padding-top: 16px;
+        margin-top: -17px;
     }
 
     .header {
         position: relative;
     }
 
-    .logo i {
+    /* .logo i {
         margin-top: 20px;
-    }
+    } */
 
 
     .navbar {
@@ -278,10 +251,9 @@ html {
     .active .mobile-navbar-btn .mobile-nav-icon[name="close-outline"] {
         display: block;
         position: fixed;
+        padding-top: -16px;
         /* overflow: hidden; */
         z-index: 3;
-        /* margin-left: 674px; */
-        margin-top: -29px;
     }
 
     .active .mobile-navbar-btn .mobile-nav-icon[name="menu-outline"] {
@@ -301,8 +273,10 @@ html {
     }
 }
 
+/* ----------MAIN----------- */
+
 .container {
-    padding-top: 165px;
+    padding-top: 170px;
 }
 
 .container .hero-text {
@@ -398,12 +372,18 @@ Responsive Codes
 ======================================= */
 
 
+
 /*Container and main page in mobile*/
 
+@media screen and (max-width: 768px){
+
+.container{
+padding-top: 130px;
+}
 
 .container .hero-text h1 {
     color: white;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 900;
     line-height: 1.2;
     margin: 20px 0px 20px;
@@ -413,7 +393,7 @@ Responsive Codes
     width: 430px;
     max-width: 100%;
     color: #eee;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 1.5;
     margin-bottom: 30px;
 }
@@ -438,14 +418,4 @@ Responsive Codes
 }
 
 
-/* Below 560px  */
-@media (max-width: 35em) {
-    .header {
-        padding: 0 2.4rem;
-    }
-
-    .header .logo {
-        width: 60%;
-    }
 }
-
