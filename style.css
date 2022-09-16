@@ -166,8 +166,8 @@ html {
 }
 
 .mobile-nav-icon {
-    width: 62px;
-    height: 62px;
+    width: 60px;
+    height: 60px;
     color: #6FEDD6;
 }
 
@@ -276,7 +276,7 @@ html {
 /* ----------MAIN----------- */
 
 .container {
-    padding-top: 130px;
+    padding-top: 100px;
 }
 
 .container .hero-text {
