@@ -276,16 +276,16 @@ html {
 /* ----------MAIN----------- */
 
 .container {
-    padding-top: 170px;
+    padding-top: 130px;
 }
 
 .container .hero-text {
-    margin-bottom: 40px;
+    margin-bottom: 44px;
 }
 
 .container .hero-text h1 {
     color: white;
-    font-size: 39px;
+    font-size: 38px;
     font-weight: 900;
     line-height: 1.2;
     margin: 20px 0px 20px;
