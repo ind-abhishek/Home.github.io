@@ -32,7 +32,7 @@ html {
     width: 100%;
     height: 100%;
     min-height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img-13.webp);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img-13.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -166,8 +166,8 @@ html {
 }
 
 .mobile-nav-icon {
-    width: 60px;
-    height: 60px;
+    width: 64px;
+    height: 64px;
     color: #6FEDD6;
 }
 
@@ -234,7 +234,7 @@ html {
 
     .navbar-link:hover,
     .navbar-link:active {
-        color: #6FEDD6;
+        color: #2ecc71;
     }
 
     .navbar-list .btn {
@@ -262,10 +262,45 @@ html {
     }
 }
 
+@media only screen and (min-width: 410px) and (max-width: 449px) {
+    .mobile-navbar-btn {
+        margin-left: 320px;
+    }
+}
+
+@media only screen and (min-width: 449px) and (max-width: 502px) {
+    .mobile-navbar-btn {
+        margin-left: 355px;
+    }
+}
+
+@media only screen and (min-width: 502px) and (max-width: 550px) {
+    .mobile-navbar-btn {
+        margin-left: 400px;
+    }
+}
+
+@media only screen and (min-width: 550px) and (max-width: 570px) {
+    .mobile-navbar-btn {
+        margin-left: 450px;
+    }
+}
+
+@media only screen and (min-width: 570px) and (max-width: 614px) {
+    .mobile-navbar-btn {
+        margin-left: 487px;
+    }
+}
+
+@media only screen and (min-width: 614px) and (max-width: 717px) {
+    .mobile-navbar-btn {
+        margin-left: 520px;
+    }
+}
 
 /* ---phone */
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 410px) {
     .mobile-navbar-btn {
 
         margin-left: 285px;
@@ -276,16 +311,16 @@ html {
 /* ----------MAIN----------- */
 
 .container {
-    padding-top: 100px;
+    padding-top: 170px;
 }
 
 .container .hero-text {
-    margin-bottom: 44px;
+    margin-bottom: 40px;
 }
 
 .container .hero-text h1 {
     color: white;
-    font-size: 38px;
+    font-size: 39px;
     font-weight: 900;
     line-height: 1.2;
     margin: 20px 0px 20px;
