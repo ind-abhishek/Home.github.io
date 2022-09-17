@@ -300,13 +300,34 @@ html {
 
 /* ---phone */
 
-@media screen and (max-width: 410px) {
+
+@media only screen and (min-width: 374px) and (max-width: 410px) {
     .mobile-navbar-btn {
-
         margin-left: 285px;
-
     }
 }
+
+
+@media only screen and (min-width: 351px) and (max-width: 374px) {
+    .mobile-navbar-btn {
+        margin-left: 265px;
+    }
+}
+
+
+
+@media only screen and (min-width: 331px) and (max-width: 351px) {
+    .mobile-navbar-btn {
+        margin-left: 248px;
+    }
+}
+
+@media only screen and (max-width: 331px) {
+    .mobile-navbar-btn {
+        margin-left: 228px;
+    }
+}
+
 
 /* ----------MAIN----------- */
 
